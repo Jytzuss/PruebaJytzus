@@ -55,8 +55,8 @@ function App() {
           path="/analyze"
           element={<Analyze items={Transaccionesdata} />}/>
 
-        <Route path="/bankcards" element={<Pagina3 />} />
-        <Route path="/inicio" element={<Sesiontargetas items={Transaccionesdata} />} />
+        <Route path="/bankcards" element={<Pagina3/>} /> 
+        <Route path="/inicio" element={<Sesiontargetas items={Transaccionesdata}/>} />
       </Routes>
       </div>
     </>

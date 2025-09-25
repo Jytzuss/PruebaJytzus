@@ -16,28 +16,28 @@ function App() {
 
   const Transaccionesdata = [
     {
-      imagen: "img/Logo1.png",
+      imagen: "/Logo1.png",
       nombre: "Dribbble",
       fecha: "13 Jan 22",
       dinero: "-$102,24",
       hora: "3:24 PM",
     },
     {
-      imagen: "img/Logo2.png",
+      imagen: "/Logo2.png",
       nombre: "Amazon Shopping",
       fecha: "12 Jan 22",
       dinero: "$32.24",
       hora: "2:35 PM",
     },
     {
-      imagen: "img/Logo3.png",
+      imagen: "/Logo3.png",
       nombre: "Youtube TV",
       fecha: "9 Jan 22",
       dinero: "-$20",
       hora: "6:10 PM",
     },
     {
-      imagen: "img/Logo4.png",
+      imagen: "/Logo4.png",
       nombre: "Paypal",
       fecha: "7 Jan 22",
       dinero: "$800",

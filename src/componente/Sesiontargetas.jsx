@@ -9,7 +9,7 @@ function Sesiontargetas({ items = [] }) {
     <span className="card">
       <div className='flex'>
         <div className='one'><p><span className='hello'>Hello, <br /></span>Bryce Turner</p></div>
-        <div><p><img src="img/Avatar.png" alt="" /></p></div>
+        <div><p><img src="/Avatar.png" alt="" /></p></div>
       </div>
 
       <div className='tarjeta'>
@@ -19,9 +19,9 @@ function Sesiontargetas({ items = [] }) {
           <p>5489-7654-3210-7894 <br /> <span>04/24</span></p>
         </div>
         <div>
-          <img src="img/Vector.png" alt="" />
+          <img src="/Vector.png" alt="" />
           <br /> <br />
-          <img src="img/Mastercard.png" alt="" />
+          <img src="/Mastercard.png" alt="" />
         </div>
       </div>
 

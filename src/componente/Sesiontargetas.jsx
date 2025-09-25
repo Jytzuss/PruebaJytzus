@@ -26,10 +26,10 @@ function Sesiontargetas({ items = [] }) {
       </div>
 
       <div className='opciones'>
-        <div><Link className='analyze' to="/analyze"><img src="img/Analyze.png" alt="" /><br /></Link>Analyze</div>
-        <div><img src="img/Calendar.png" alt="" /><br />Calendar</div>
-        <div><Link to="/productos"><img src="img/Document.png" alt="" /></Link><br />Document</div>
-        <div><Link to="/Bankcards"><img src="img/Collect.png" alt="" /><br /></Link>Collet</div>
+        <div><Link className='analyze' to="/analyze"><img src="/Analyze.png" alt="" /><br /></Link>Analyze</div>
+        <div><img src="/Calendar.png" alt="" /><br />Calendar</div>
+        <div><Link to="/productos"><img src="/Document.png" alt="" /></Link><br />Document</div>
+        <div><Link to="/Bankcards"><img src="/Collect.png" alt="" /><br /></Link>Collet</div>
       </div>
       <Transacciones items={items} />
       <Navegacion></Navegacion>

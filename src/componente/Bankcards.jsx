@@ -4,22 +4,22 @@ import Navegacion from './Navegacion'
 function Bankcards() {
     const cards = [
         {
-            imagen1: "img/Vector.png",
-            imagen2: "img/Mastercard.png",
+            imagen1: "/Vector.png",
+            imagen2: "/Mastercard.png",
             ncuenta: "5489-7654-3210-7894",
             fecha: "04/24",
             balance: "$1.924,35"
         },
         {
-            imagen1: "img/Vector.png",
-            imagen2: "img/Mastercard.png",
+            imagen1: "/Vector.png",
+            imagen2: "/Mastercard.png",
             ncuenta: "8529-1835-6562-6536",
             fecha: "24/23",
             balance: "$2.142,66"
         },
         {
-            imagen1: "img/Vector.png",
-            imagen2: "img/Mastercard.png",
+            imagen1: "/Vector.png",
+            imagen2: "/Mastercard.png",
             ncuenta: "1245-3647-7319-8021",
             fecha: "15/22",
             balance: "$5.354,15"
@@ -31,7 +31,7 @@ function Bankcards() {
             
             <div className='bankname'>
                 <div><h3>Bank Cards</h3></div>
-                <div><img src="img/Avatar.png" alt="" /></div>
+                <div><img src="/Avatar.png" alt="" /></div>
             </div>
 
             
